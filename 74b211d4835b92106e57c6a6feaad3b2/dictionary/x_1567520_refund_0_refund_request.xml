@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c128a11083db92106e57c6a6feaad315" extends="task" label="Refund Request" max_length="40" name="x_1567520_refund_0_refund_request" type="collection">
+        <element label="Category" max_length="32" name="category" reference="x_1567520_refund_0_category" type="reference"/>
+        <element label="Expense Date" max_length="40" name="expense_date" type="glide_date_time"/>
+        <element label="Amount BRL" max_length="40" name="amount_brl" type="currency"/>
+        <element label="Amount USD" max_length="40" name="amount_usd" type="currency"/>
+        <element choice="3" label="Payment Status" max_length="40" name="payment_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="In analysis" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Reproved" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Reproval Reason" max_length="1000" name="reproval_reason" type="string"/>
+    </element>
+</database>
