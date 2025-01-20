@@ -4,12 +4,12 @@
         <element label="Expense Date" max_length="40" name="expense_date" type="glide_date_time"/>
         <element label="Amount BRL" max_length="38" name="amount_brl" type="currency"/>
         <element label="Amount USD" max_length="38" name="amount_usd" type="currency"/>
-        <element choice="3" label="Payment Status" max_length="40" name="payment_status" type="choice">
+        <element choice="3" default="1" label="Payment Status" max_length="40" name="payment_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Requested" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="In analysis" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="Reproved" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="Approved" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Awaiting payment" sequence="1" value="5"/>
+                <element inactive_on_update="false" label="Canceled" sequence="2" value="4"/>
+                <element inactive_on_update="false" label="Paid" sequence="3" value="6"/>
             </choice>
         </element>
         <element label="Reproval Reason" max_length="1000" name="reproval_reason" type="string"/>
