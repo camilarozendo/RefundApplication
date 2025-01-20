@@ -2,8 +2,8 @@
     <element db_object_id="c128a11083db92106e57c6a6feaad315" extends="task" label="Refund Request" max_length="40" name="x_1567520_refund_0_refund_request" type="collection">
         <element label="Category" max_length="32" name="category" reference="x_1567520_refund_0_category" type="reference"/>
         <element label="Expense Date" max_length="40" name="expense_date" type="glide_date_time"/>
-        <element label="Amount BRL" max_length="40" name="amount_brl" type="currency"/>
-        <element label="Amount USD" max_length="40" name="amount_usd" type="currency"/>
+        <element label="Amount BRL" max_length="38" name="amount_brl" type="currency"/>
+        <element label="Amount USD" max_length="38" name="amount_usd" type="currency"/>
         <element choice="3" label="Payment Status" max_length="40" name="payment_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Requested" sequence="0" value="1"/>
