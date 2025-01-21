@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=4616000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=12785000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,14 +15,14 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>notification_to_hr_manager</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.group.parent.manager","label":"Trigger - Record Created or Updated➛Group Member Record➛Group➛Parent➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager","usedInstances":{}},{"name":"Created or Updated_1.current.group.parent","label":"Trigger - Record Created or Updated➛Group Member Record➛Group➛Parent","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"parent","usedInstances":{"ea0e5784-f5e2-42b5-acec-bd87b9b1eb50":["condition"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","usedInstances":{"1a2c5699-7a6c-42b8-b59d-d6ac0a56b5c4":["record"]},"attributes":{}},{"name":"Updated_1.current.parent.manager","label":"Trigger - Record Updated➛Group Record➛Parent➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager","usedInstances":{}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Group Record","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"1a2c5699-7a6c-42b8-b59d-d6ac0a56b5c4":["record"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛Group Record","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"1a2c5699-7a6c-42b8-b59d-d6ac0a56b5c4":["record"]},"attributes":{}},{"name":"Updated_1.current.parent.manager","label":"Trigger - Record Updated➛Group Record➛Parent➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager","usedInstances":{}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","usedInstances":{"1a2c5699-7a6c-42b8-b59d-d6ac0a56b5c4":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.group.parent","label":"Trigger - Record Created or Updated➛Group Member Record➛Group➛Parent","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"parent","usedInstances":{"ea0e5784-f5e2-42b5-acec-bd87b9b1eb50":["condition"]}},{"name":"Created or Updated_1.current.group.parent.manager","label":"Trigger - Record Created or Updated➛Group Member Record➛Group➛Parent➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager","usedInstances":{"1a2c5699-7a6c-42b8-b59d-d6ac0a56b5c4":["record"]}},{"name":"Created or Updated_1.current.group.name","label":"Trigger - Record Created or Updated➛Group Member Record➛Group➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name","usedInstances":{}},{"name":"Created or Updated_1.current.user","label":"Trigger - Record Created or Updated➛Group Member Record➛User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_grmember","column_name":"user","usedInstances":{}}]</label_cache>
         <master_snapshot>6f5bab24835b16106e57c6a6feaad3dd</master_snapshot>
         <master_snapshot_digest/>
         <name>Notification to HR Manager</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>edb277ac835b16106e57c6a6feaad3eb</remote_trigger_id>
+        <remote_trigger_id>9c86d8b8831f16106e57c6a6feaad3be</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a6b5ab2c831b16106e57c6a6feaad38b</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_name>Notification to HR Manager</sys_name>
         <sys_overrides/>
         <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
         <sys_update_name>sys_hub_flow_a6b5ab2c831b16106e57c6a6feaad38b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 21:20:30</sys_updated_on>
+        <sys_updated_on>2025-01-21 23:36:40</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -52,7 +52,7 @@
     <sys_variable_value action="delete_multiple" query="document_key=a6b5ab2c831b16106e57c6a6feaad38b"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="sys_user_grmember">group.include_members=true<item endquery="false" field="group.include_members" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        <condition table="sys_user_grmember">group.include_membersVALCHANGES<item endquery="false" field="group.include_members" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
         </condition>
         <name/>
         <on_delete>false</on_delete>
@@ -65,15 +65,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-21 21:00:17</sys_created_on>
+        <sys_created_on>2025-01-21 23:36:40</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>edb277ac835b16106e57c6a6feaad3eb</sys_id>
+        <sys_id>9c86d8b8831f16106e57c6a6feaad3be</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 21:00:17</sys_updated_on>
+        <sys_updated_on>2025-01-21 23:36:40</sys_updated_on>
         <table>sys_user_grmember</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
@@ -82,14 +82,14 @@
         <identifier>a6b5ab2c831b16106e57c6a6feaad38b</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-21 21:20:30</sys_created_on>
-        <sys_id>3d573364839b16106e57c6a6feaad373</sys_id>
+        <sys_created_on>2025-01-21 23:36:40</sys_created_on>
+        <sys_id>1486d8b8831f16106e57c6a6feaad3bf</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 21:20:30</sys_updated_on>
-        <trigger display_value="">edb277ac835b16106e57c6a6feaad3eb</trigger>
+        <sys_updated_on>2025-01-21 23:36:40</sys_updated_on>
+        <trigger display_value="">9c86d8b8831f16106e57c6a6feaad3be</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=a6b5ab2c831b16106e57c6a6feaad38b^sys_idNOT IN3d573364839b16106e57c6a6feaad373"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=a6b5ab2c831b16106e57c6a6feaad38b^sys_idNOT IN1486d8b8831f16106e57c6a6feaad3bf"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=a6b5ab2c831b16106e57c6a6feaad38b"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=a6b5ab2c831b16106e57c6a6feaad38b^sys_idNOT IN66b5ab2c831b16106e57c6a6feaad38c"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -369,12 +369,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-21 20:42:38</sys_created_on>
         <sys_id>c7aea368835b16106e57c6a6feaad36c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 21:20:29</sys_updated_on>
+        <sys_updated_on>2025-01-21 23:36:38</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
-        <trigger_inputs>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</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
     </sys_hub_trigger_instance_v2>
@@ -384,51 +384,25 @@
         <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
         <attributes/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Notification to HR Manager">a6b5ab2c831b16106e57c6a6feaad38b</flow>
         <generation_source/>
-        <order>2</order>
-        <parent_ui_id>ea0e5784-f5e2-42b5-acec-bd87b9b1eb50</parent_ui_id>
+        <order>1</order>
+        <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-21 20:27:22</sys_created_on>
         <sys_id>572ba724835b16106e57c6a6feaad360</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 21:19:43</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-01-21 23:37:06</sys_updated_on>
         <ui_id>1a2c5699-7a6c-42b8-b59d-d6ac0a56b5c4</ui_id>
-        <values>H4sIAAAAAAAA/8WW207jMBCGXyXKdVPFSdqk3K0WsUJaQGKBG4Qixx63lpwDjlPoVrz7jpP0CAXEsuxdPbbH8//jL+7t0pXcPXIjnnA+EcQXhBCf+CMSkAQSyFg8jiFI3IFb0BxwpQZWao7jOVWNDSyX3zVQA9wptXNdcfszJUPWaA2FeXrCpVzWlaKLm34HRthMKo7z7tHt3cCtqMbkBrR7tNybMosKUkUzULjxuGRNjkmd02PM8d7CV7svV5XvK7Fn4Jj32VNpgzhl6yEDFx4NFBzwNEFVDQM3pwWqLPViHUED+EWhNoGZLEynNKePtfyN+cPArhOA0ljvwnqY9g6tzCklg4vKyLLoIoZmauVcqZq8OO8kWG9B0EaZLW+bGvNBZWu2RRjdYEHi16x8uFyddyKLVl1frSoZVesRNUbLrDFQ23Y08uole7rwzxcbAwrahTmtKllM00qXc9meh9Xnw6nCwVCo8gHLrOW0GFJmpQ7RVDo8wfhxG76hWlrdZ5gGN9szrwt538CpbTwnfhxOfObFwSj0Ip9RL0t45tEsEKMoGifjjLhPrcfpfWPldW71vqStta2vaXsfcGnNtKzMNyxmDr0bT4MekIS8ds/CYHOttnJuIKkXdYp90elU55BnrZw9Kn7osqmcs9Xsxwi5soc7593h7y18Z/MBIT0jO7EekeDTEEn8/4NIX9HfM7Jjzy4iO535EkJYlmUig4lHMsa8KIbESwIaezDyWSiC0Pdj8SYhb3ERvX69th6OojRSSEbblm3I4BGuE0GShCQjY+KPYRSzMR0LoJSHgj0HpXtjnI6j2pGFY2bgTC0+H+Zm3fX1u/K2rtXe811hL8vt+dFb5/T4hK/j032+P/LA4DcH5raRkFOp0u4KHUBqT8NhvA4l3WGOCgHM/g0QEhTHi5S2e77gtdpxHXnEbM9I3O71vwPx6nnDazBpb0BqE6Si1Dm1bWy17PMbTQjEYZB4k3GA/EI48jIehh5BngEoQsM/44W7+wOpHhWNBAoAAA==</values>
+        <values>H4sIAAAAAAAA/9WWyW7bMBCGX0XQ2TJEybbk3IoEKQJkAbJdgkCgyKFNgFpCUU5SI+/eoSTvztqmQG/mcPvnn/lE381dyd0Dd8BjzseC+IIQ4hN/SAISQwwpi0YRBLHbc3OaAa7UwArNcTyjqraB+fxQAzXAnUI7NyW3PxPSZ7XWkJuXF1zKZVUq+nzb7cAIm0rFcd49uLvvuSXVeLgB7R7Mt6Y+qk7RFBQuvVzI25Zrnks75gWrM9SVyEXwtNt51M04J0c4g5usHNJz4clAzgF1CKoq6LkZzTHJQj8vI5g/v8jVKjCVuWkTzehTJX/hzWFg1wnAzFhnwnKYdAa1YXFEDb0yumam1ku/Csmgaj3hIGitzOF6rF1wURpZ5O0WQ1O12F2oOsvPW0fc5QFr9agrFAGlTdQqx8sxC3E1LR4vFyKPZd5Y0qWoCkbVckSN0TKtjZUzd2t5vc/tNrzfb1DQLMxoWcp8kpS6mMnmPlSf9ScKB32hikeUWclJ3qfMptrHStD+McaPmvAt1dLmfYbH4GZ7500uH2o4sX3EiR+FY595UTAMvYHPqJfGPPVoGojhYDCKRylxX3pu9VwdKlpVK8ewVMlDbRNu/eucShqzG6eTpuHsZqZlaX6gvBl0/rz0Osxi8lYjh8Gqb9fOXKGGuhKslE4mOoMsbRLcYuunLurSOVvMfo6zD8hbcHbddNd+uR1qO7HT9b3OeTvRgRZ8ErS2Q/dwFvv/EWddWn8O2obXm5xtuP1PMGNpmooUxh5JGfMGEcReHNDIg6HPQhGEvh+JL2D2HlyDt7t37Q3LCyOFZLQp4govPsB1IojjkKRkRPwRDCM2oiMBlPJQsF3a2ufOaWGsHJk7ZgrOxDL4+UfuffkL+M439e/PqqNwxcImhJdr8Y7B8G0GW+S+8tZhoWFm6wgZlSppe+oVMLdy+8uQvqZkg1wqBDD7L0ZIUBybL2n2fMvDKa6AajY9tjfZGraYblK+UVhkHe/YoXy9nN8H+fVuT1Vgks6WxB6QiEJn1HZEk+H2t2EwJhCFQeyNRwF+GyAceikPQ4/gtwKAIn78e57g+99zmHwk6woAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=a6b5ab2c831b16106e57c6a6feaad38b"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=a6b5ab2c831b16106e57c6a6feaad38b^sys_idNOT IN9392b3ac835b16106e57c6a6feaad3cb"/>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">5792b3ac835b16106e57c6a6feaad3ca</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="Notification to HR Manager">a6b5ab2c831b16106e57c6a6feaad38b</flow>
-        <flow_variables_assigned/>
-        <generation_source/>
-        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>1</order>
-        <outputs_assigned/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-21 20:59:52</sys_created_on>
-        <sys_id>9392b3ac835b16106e57c6a6feaad3cb</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 21:20:29</sys_updated_on>
-        <ui_id>ea0e5784-f5e2-42b5-acec-bd87b9b1eb50</ui_id>
-        <values>H4sIAAAAAAAA/+2UbWvbMBDHv4rxa2P80IQ1b0bp1q2wNiXJCmMUI0vnREyWNElOmoV89538kIY1ZaXs5d5Z/zvd/e/0w7tQNU43zi7UhbV8KcPJ94co5NJr+L0LJakhnIRUScYdV7JohShcE9H4wCejGh3cEQPSBdwGn2fBDKwSazD2PeYxbrUg2/tXptMVFwyDnQ9NDHZzYMLJ7o+Q22ooBClBYNW5M1wu8TpneKoSUqXnNKV5Ns6zJMnenaXlOC/TjOUESI55w8XLYazgS6tEL87r+6Fuh07KMG8rTaIQHh1IBti6IsJCFNZEMuKU2R4UA4RNpXgSVlw6LBf65EfLf2HtbDTyiRXgjBS64OFY9HvsZLpSnMJUe4Od4kgp+jtUiaaWt90c/gWgIo1wwwug0lisB9qb9i56S9V8pTazoeEVl+2AfVAoSsThRByuoWwcWP8wIKDGQkVNtMblFNqoNW8vo5c6Xgo8xJVQG2zqGYsJ9cZj3BGJr1D/0Mr3xHA/xQ2WwcudzZJYTouWRyznDI6wb9dS/Gy8oW7AfpSi2wYmWGq4dhfYZw296330HOYjjne7S3wkByxQJviqmf8s0pg2xqMaLz23sW653e+v57fTxcebu8W354S/vdC/YP+cjKpRmoxOs382PsX+CepfBj77C/D+iV7Je5Ik/4E/Bp7bogO3n61t/mbeHzzcXQfbccOAcotGFl67Hv7xPrBFADg9ljbK/PAjPGn735qqj+AtBgAA</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=a6b5ab2c831b16106e57c6a6feaad38b"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=a6b5ab2c831b16106e57c6a6feaad38b"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=a6b5ab2c831b16106e57c6a6feaad38b"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a6b5ab2c831b16106e57c6a6feaad38b^sys_idNOT IN172ba724835b16106e57c6a6feaad33d,1b2ba724835b16106e57c6a6feaad340,532b6fa0835b16106e57c6a6feaad30f"/>
@@ -518,7 +492,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>notification_to_hr_manager</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.group.parent.manager","label":"Trigger - Record Created or Updated➛Group Member Record➛Group➛Parent➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager","usedInstances":{}},{"name":"Created or Updated_1.current.group.parent","label":"Trigger - Record Created or Updated➛Group Member Record➛Group➛Parent","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"parent","usedInstances":{"ea0e5784-f5e2-42b5-acec-bd87b9b1eb50":["condition"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","usedInstances":{"1a2c5699-7a6c-42b8-b59d-d6ac0a56b5c4":["record"]},"attributes":{}},{"name":"Updated_1.current.parent.manager","label":"Trigger - Record Updated➛Group Record➛Parent➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager","usedInstances":{}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Group Record","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"1a2c5699-7a6c-42b8-b59d-d6ac0a56b5c4":["record"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛Group Record","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"1a2c5699-7a6c-42b8-b59d-d6ac0a56b5c4":["record"]},"attributes":{}},{"name":"Updated_1.current.parent.manager","label":"Trigger - Record Updated➛Group Record➛Parent➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager","usedInstances":{}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","usedInstances":{"1a2c5699-7a6c-42b8-b59d-d6ac0a56b5c4":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.group.parent","label":"Trigger - Record Created or Updated➛Group Member Record➛Group➛Parent","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"parent","usedInstances":{"ea0e5784-f5e2-42b5-acec-bd87b9b1eb50":["condition"]}},{"name":"Created or Updated_1.current.group.parent.manager","label":"Trigger - Record Created or Updated➛Group Member Record➛Group➛Parent➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager","usedInstances":{"1a2c5699-7a6c-42b8-b59d-d6ac0a56b5c4":["record"]}},{"name":"Created or Updated_1.current.group.name","label":"Trigger - Record Created or Updated➛Group Member Record➛Group➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name","usedInstances":{}},{"name":"Created or Updated_1.current.user","label":"Trigger - Record Created or Updated➛Group Member Record➛User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_grmember","column_name":"user","usedInstances":{}}]</label_cache>
         <master>true</master>
         <name>Notification to HR Manager</name>
         <natlang/>
@@ -535,7 +509,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6f5bab24835b16106e57c6a6feaad3dd</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -543,7 +517,7 @@
         <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 21:20:30</sys_updated_on>
+        <sys_updated_on>2025-01-21 23:36:40</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -627,14 +601,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-21 20:28:12</sys_created_on>
         <sys_id>635bab24835b16106e57c6a6feaad3e0</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 21:20:30</sys_updated_on>
+        <sys_updated_on>2025-01-21 23:36:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -711,14 +685,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-21 20:28:12</sys_created_on>
         <sys_id>675bab24835b16106e57c6a6feaad3fe</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 21:20:30</sys_updated_on>
+        <sys_updated_on>2025-01-21 23:36:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -828,12 +802,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-21 20:28:12</sys_created_on>
         <sys_id>6b5beb24835b16106e57c6a6feaad30a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 21:20:30</sys_updated_on>
+        <sys_updated_on>2025-01-21 23:36:39</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
-        <trigger_inputs>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</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
     </sys_hub_trigger_instance_v2>
@@ -847,47 +821,21 @@
         <display_text/>
         <flow display_value="Notification to HR Manager">6f5bab24835b16106e57c6a6feaad3dd</flow>
         <generation_source/>
-        <order>2</order>
-        <parent_ui_id>ea0e5784-f5e2-42b5-acec-bd87b9b1eb50</parent_ui_id>
+        <order>1</order>
+        <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-21 20:28:12</sys_created_on>
         <sys_id>a35beb24835b16106e57c6a6feaad30a</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 21:19:45</sys_updated_on>
+        <sys_updated_on>2025-01-21 23:33:37</sys_updated_on>
         <ui_id>1a2c5699-7a6c-42b8-b59d-d6ac0a56b5c4</ui_id>
         <values>H4sIAAAAAAAA/9WWyW7bMBCGX0XQ2TJEybbk3IoEKQJkAbJdgkCgyKFNgFpCUU5SI+/eoSTvztqmQG/mcPvnn/lE381dyd0Dd8BjzseC+IIQ4hN/SAISQwwpi0YRBLHbc3OaAa7UwArNcTyjqraB+fxQAzXAnUI7NyW3PxPSZ7XWkJuXF1zKZVUq+nzb7cAIm0rFcd49uLvvuSXVeLgB7R7Mt6Y+qk7RFBQuvVzI25Zrnks75gWrM9SVyEXwtNt51M04J0c4g5usHNJz4clAzgF1CKoq6LkZzTHJQj8vI5g/v8jVKjCVuWkTzehTJX/hzWFg1wnAzFhnwnKYdAa1YXFEDb0yumam1ku/Csmgaj3hIGitzOF6rF1wURpZ5O0WQ1O12F2oOsvPW0fc5QFr9agrFAGlTdQqx8sxC3E1LR4vFyKPZd5Y0qWoCkbVckSN0TKtjZUzd2t5vc/tNrzfb1DQLMxoWcp8kpS6mMnmPlSf9ScKB32hikeUWclJ3qfMptrHStD+McaPmvAt1dLmfYbH4GZ7500uH2o4sX3EiR+FY595UTAMvYHPqJfGPPVoGojhYDCKRylxX3pu9VwdKlpVK8ewVMlDbRNu/eucShqzG6eTpuHsZqZlaX6gvBl0/rz0Osxi8lYjh8Gqb9fOXKGGuhKslE4mOoMsbRLcYuunLurSOVvMfo6zD8hbcHbddNd+uR1qO7HT9b3OeTvRgRZ8ErS2Q/dwFvv/EWddWn8O2obXm5xtuP1PMGNpmooUxh5JGfMGEcReHNDIg6HPQhGEvh+JL2D2HlyDt7t37Q3LCyOFZLQp4govPsB1IojjkKRkRPwRDCM2oiMBlPJQsF3a2ufOaWGsHJk7ZgrOxDL4+UfuffkL+M439e/PqqNwxcImhJdr8Y7B8G0GW+S+8tZhoWFm6wgZlSppe+oVMLdy+8uQvqZkg1wqBDD7L0ZIUBybL2n2fMvDKa6AajY9tjfZGraYblK+UVhkHe/YoXy9nN8H+fVuT1Vgks6WxB6QiEJn1HZEk+H2t2EwJhCFQeyNRwF+GyAceikPQ4/gtwKAIn78e57g+99zmHwk6woAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=6f5bab24835b16106e57c6a6feaad3dd"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=6f5bab24835b16106e57c6a6feaad3dd^sys_idNOT INa1b277ac835b16106e57c6a6feaad3bc"/>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">5792b3ac835b16106e57c6a6feaad3ca</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="Notification to HR Manager">6f5bab24835b16106e57c6a6feaad3dd</flow>
-        <flow_variables_assigned/>
-        <generation_source/>
-        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>1</order>
-        <outputs_assigned/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-21 21:00:17</sys_created_on>
-        <sys_id>a1b277ac835b16106e57c6a6feaad3bc</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 21:20:30</sys_updated_on>
-        <ui_id>ea0e5784-f5e2-42b5-acec-bd87b9b1eb50</ui_id>
-        <values>H4sIAAAAAAAA/+1V72/aMBD9VyJ/jqIEClr5MlV03Sq1pQJWaZqq6OI4YM2xPduBMsT/3nN+AFqZ1m77uG/xu/Pde+d7ypaoyunK2bm6sJYvJBl9fQwJlx7D7y2RUDIyIlTJnDuuZFoDIVmBqHzgo1GVDu7BMOkCboNP02DKrBIrZux7zMu51QI2D69Mp0sucgw2PDQY7OaYIaPtTyGeY7UihiI5pwnt94b9Xhz33p0l2bCfJb28Dwz6WFBAxgSmjjsBwU2NhL9U5jba49YZLhft+aatMutAZXLPKolDwp4ckzlDPgUIy0JSgszBKbPZI4ZBPpHiACy5dFiO+OQny39gw95g4BMLhhIpa4L7Y9qOsYGLS3CAVCrqKtOm0qXilNlmODkroBJufIw1CRPtpTZXHGSiu61EVcq7ZiJkX6B7NUQqiySY9ko99VZHMVuq9bRjecVlPZU2KBQFsT+Bw9lllfN8toQJVmKhtAStcaKpNmrF68vIpYwWAg9RIdQam/q9jIB64hEOFqIrxC9r+AEM9ypusQxebmhmYDlN6x3GcjgmRnYhsRs7FmDtQSRON/1eeYqN5FZc2szHX6GGa3eBnVes1bELX1riyA3b7Rjf2rE8UCb4rHP/mSYRrYxf+Gjhtz/S9fbvdtezu8n8w+39/MtLn/x5obc56BwGxSCJB6cddDY85aAT3nmjbXq/sY1/s1e6Jo7j/7b5a9twmzbL3mqrm/9D1zx6izQ997Om3CK1uceuu/+ND2xwuTg9htbKfPOiDtjuGW1dggW5BgAA</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=6f5bab24835b16106e57c6a6feaad3dd"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=6f5bab24835b16106e57c6a6feaad3dd"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=6f5bab24835b16106e57c6a6feaad3dd"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_6f5bab24835b16106e57c6a6feaad3dd^sys_idNOT IN275bab24835b16106e57c6a6feaad3ef,2f5beb24835b16106e57c6a6feaad302,635bab24835b16106e57c6a6feaad3e8"/>
@@ -966,25 +914,25 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>a6b5ab2c831b16106e57c6a6feaad38b</sys_id>
         <latest_snapshot>6f5bab24835b16106e57c6a6feaad3dd</latest_snapshot>
-        <compiler_build/>
+        <compiler_build>glide-xanadu-07-02-2024__patch4-11-22-2024_12-02-2024_1408.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=a6b5ab2c831b16106e57c6a6feaad38b^sys_idNOT IN3b5beb24835b16106e57c6a6feaad313"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
-        <plan/>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"3b5beb24835b16106e57c6a6feaad313","name":"plan","plan_signature":null}}</plan>
         <plan_id>a6b5ab2c831b16106e57c6a6feaad38b</plan_id>
-        <snapshot>6f5bab24835b16106e57c6a6feaad3dd</snapshot>
+        <snapshot>6e969cb8831f16106e57c6a6feaad350</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-21 20:28:13</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3b5beb24835b16106e57c6a6feaad313</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 21:20:30</sys_updated_on>
-        <trigger display_value="">edb277ac835b16106e57c6a6feaad3eb</trigger>
+        <sys_updated_on>2025-01-21 23:36:40</sys_updated_on>
+        <trigger display_value="">9c86d8b8831f16106e57c6a6feaad3be</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a6b5ab2c831b16106e57c6a6feaad38b"/>
 </record_update>
