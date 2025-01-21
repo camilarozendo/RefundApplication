@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>BRL Currency Field</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    g_form.setValue('amount_brl', 'BRL');
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 13:35:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>afac46e8835316106e57c6a6feaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BRL Currency Field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
+        <sys_update_name>sys_script_client_afac46e8835316106e57c6a6feaad3f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 13:35:07</sys_updated_on>
+        <table>x_1567520_refund_0_refund_request</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</application>
+        <file_path/>
+        <instance_id>499ef269db85461437d72a5913961959</instance_id>
+        <instance_name>dev246208</instance_name>
+        <name>sys_script_client_afac46e8835316106e57c6a6feaad3f3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;BRL Currency Field&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    g_form.setValue('amount_brl', 'BRL');
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-21 13:35:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;afac46e8835316106e57c6a6feaad3f3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;BRL Currency Field&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Refund Application" source="x_1567520_refund_0"&gt;74b211d4835b92106e57c6a6feaad3b2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Refund Application"&gt;74b211d4835b92106e57c6a6feaad3b2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_afac46e8835316106e57c6a6feaad3f3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-21 13:35:07&lt;/sys_updated_on&gt;&lt;table&gt;x_1567520_refund_0_refund_request&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1290797511</payload_hash>
+        <record_name>BRL Currency Field</record_name>
+        <reverted_from/>
+        <source>fd2459d4835b92106e57c6a6feaad342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 13:35:07</sys_created_on>
+        <sys_id>60dc0ae8835316106e57c6a6feaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948912f1ad0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 13:35:07</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>64dc0ae87f53161039a8591cb11fe274</update_guid>
+        <update_guid_history>64dc0ae87f53161039a8591cb11fe274:-1290797511</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 13:35:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>628daa7701a949bfbc4f9256813aac09</sys_id>
+        <sys_metadata>afac46e8835316106e57c6a6feaad3f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BRL Currency Field</sys_name>
+        <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
+        <sys_parent display_value="Refund Request">c128a11083db92106e57c6a6feaad315</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
+        <sys_scope_delete display_value="">4358b604bea043d8b6440dff506a0690</sys_scope_delete>
+        <sys_update_name>sys_script_client_afac46e8835316106e57c6a6feaad3f3</sys_update_name>
+        <sys_update_version display_value="sys_script_client_afac46e8835316106e57c6a6feaad3f3">60dc0ae8835316106e57c6a6feaad375</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 13:35:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

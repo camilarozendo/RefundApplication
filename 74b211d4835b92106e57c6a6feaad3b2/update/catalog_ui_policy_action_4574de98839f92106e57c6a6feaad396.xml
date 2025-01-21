@@ -13,19 +13,19 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 19:29:59</sys_created_on>
         <sys_id>4574de98839f92106e57c6a6feaad396</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>refund_amount</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>amount_brl</sys_name>
         <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
         <sys_update_name>catalog_ui_policy_action_4574de98839f92106e57c6a6feaad396</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 19:29:59</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-01-21 11:50:37</sys_updated_on>
         <table/>
         <ui_policy display_value="Mandatory Fields">8d341e98839f92106e57c6a6feaad38b</ui_policy>
         <value/>
         <value_action>ignore</value_action>
-        <variable>refund_amount</variable>
+        <variable>amount_brl</variable>
         <variable_set/>
         <visible>ignore</visible>
     </catalog_ui_policy_action>

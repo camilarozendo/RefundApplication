@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=520000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>closed_request</internal_name>
+        <label_cache>[{"name":"subflow.payment_status","label":"Input➛Payment Status","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"payment_status","choices":[],"usedInstances":{"317971c6-88e7-4aab-b866-67ad50acc292":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c96ce5be-5584-41a2-82b2-07c286a18d25"}},{"name":"317971c6-88e7-4aab-b866-67ad50acc292.Record","label":"1 - Look Up Record➛Refund Request Record","reference":"x_1567520_refund_0_refund_request","reference_display":"Refund Request","type":"reference","base_type":"reference","usedInstances":{"850f75d1-51c2-43b8-8d64-2ae9b2ebcbfb":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>a67f9b64831b16106e57c6a6feaad357</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Closed Request</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 19:27:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>377d1fa0831b16106e57c6a6feaad35d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Closed Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
+        <sys_update_name>sys_hub_flow_377d1fa0831b16106e57c6a6feaad35d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 19:36:15</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=377d1fa0831b16106e57c6a6feaad35d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=377d1fa0831b16106e57c6a6feaad35d"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=377d1fa0831b16106e57c6a6feaad35d"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=377d1fa0831b16106e57c6a6feaad35d^sys_idNOT INf37d1fa0831b16106e57c6a6feaad35e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>377d1fa0831b16106e57c6a6feaad35d</id>
+        <name>Closed Request</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 19:27:36</sys_created_on>
+        <sys_id>f37d1fa0831b16106e57c6a6feaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 19:27:36</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f37d1fa0831b16106e57c6a6feaad35e"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=377d1fa0831b16106e57c6a6feaad35d"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=377d1fa0831b16106e57c6a6feaad35d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=377d1fa0831b16106e57c6a6feaad35d"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=377d1fa0831b16106e57c6a6feaad35d"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=377d1fa0831b16106e57c6a6feaad35d^sys_idNOT IN2a7f9b64831b16106e57c6a6feaad33c,a27f9b64831b16106e57c6a6feaad33e"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Closed Request">377d1fa0831b16106e57c6a6feaad35d</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 19:36:14</sys_created_on>
+        <sys_id>2a7f9b64831b16106e57c6a6feaad33c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-01-21 19:38:28</sys_updated_on>
+        <ui_id>317971c6-88e7-4aab-b866-67ad50acc292</ui_id>
+        <values>H4sIAAAAAAAA/+VYXW/jKhD9K5af0147X076dtUq0kp7t1Lbuy+7K4QNbtAScAG3Tav+9zsY7ESJ82HdVGq1b/EwwJmZcwbIj9eQkfAiJNNomk+no0kSRYNBFI3HgwzHaToYZ2mU4mHYCwVeUPA0OOUUPh8xL+33M4pH42TUj5CieSkIan4o+lBSbcCXMF1wvPzup9xU48FNM57NGSeKivDix69eWGAFWxmqwovXjaFjsXKcUg6udx7sBnazLJpPVI0529f1acE3NyAVsVCiXkifDRWEAoYcc0174QILgo1Uy8aiKCbXgq8McyYMrBha52fNXmDfSWT9cgpRZdSNNZ/Ip8qZ8yts8K1RZWZK5V2zuWQZ1S4fhOa45OZy3eYcrgvDpHBTXNhutuTlQnxz6QibBerKgKXUAIIWNlCL3IeR387l002NcsZElRM/yGWGefOFjVEsLY3F8xpSThewEFrgomDiHhVKPrJqMmBZnN9z+DjPuXyCTTW7F+c4s8DPIa/4fAb2q8r8HStmo/gHloHJAIhxYAhyJdSyVFUqH1HGS10NKCy0Wyt864V6qS851noVOaQcPZQWt8uDjxi5pNkpmWKF+RuWeKQ+uLdeLZfRXgpOV5TLpCDMotBrminwskqKNtiU+mcJi5Dxtk52uXWUy2GstVwu18G2BeCFs2X72raAF058MuEMo+gzSQc2/3jK6a4Fl4IDgojJXpKRFZ+0VAa5XK4pYpv8nXl+BISa59eWmUG63IXK0zxnlJO282FmBzbOh/6feT58SJIDIIJc9ZjgTFSHPQB9L/aP9lIvjTd4VtFrxf3KhnW2rQEcGBm8dFbCEXBqJdzC3sGdw9MCse73FWU2e31t9AIYnEwAg/5pBPDahNkksiXn9f3OVrP2f7H+eNMfKLg2IX5rE1inPeOue/bftgU86KTgdbK5kasdnDvxRXCHInvv2QLmMNXvh5x+0RMj99Ssdq+9iDRPmP9uG/eMQ3WhqvDe4VIZ733XpGuXSpajBVSOFXD3VTQDcmiEFUW5tO8uf+tdEclWMmdKG+/c9iID/YhAgjADM6dB5R003h0P4sNx1Kn8kgd1IH43HUAgQRVI0ATSLewuTWt4wsvpqZvWDDNeVQMeNMVaOalSUu1oXAcKuYcRR3a1I0HFJwX1/9temwRa298BrJ/idXz61pRRnA77eJwM4jiK4ogk0SRJ4sk4zcc4GeYrjSKkRQbdFFbOgSqwPKqpUdc52u4/rqV2bTRHoKopeCWFfT/3ExNYWFDfoIZ1GLhvKKmUnGKx0VHu4Jz4a+bxe76OPlxX+RT/FZXsbjPTztSa6/e6N5TsX8EeSvrFUmxCo/4kJtnZJImTs2FOxmdTgkdneJqOkgGh2TA/5VXg13/u9OoUkBUAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Closed Request">377d1fa0831b16106e57c6a6feaad35d</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 19:36:14</sys_created_on>
+        <sys_id>a27f9b64831b16106e57c6a6feaad33e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-01-21 19:38:28</sys_updated_on>
+        <ui_id>850f75d1-51c2-43b8-8d64-2ae9b2ebcbfb</ui_id>
+        <values>H4sIAAAAAAAA/9WV207jMBCGXwXluqlipzmUuxUICYkFqbDcIBRN7DFYcg4kDtCt+u5rJ+khtLDALivtXT322P/8M19zs3Akdw6dCY85nwriCUKIR7yAUBJjjCmLwghp7IycHDI0JytkRcXN+hFUYwOLhU+iaURY6MYxRu4EIHXTOAzdMAIeeMAYndLxrM1bLk0ml3WpYH7dX2Ai7F4qXmHuHN7cjpwSKvOWxso5XLzYeq9YBSkqc3S2UvtSvZ6Xds0L1mSY60Sugmd95nG/c3B6bHZMkpVDRg4+a8w5Gh0CVI0jJ4Ocgy6q+TpSIfCLXG0C9zLXXaEZPNfyp3nZp/acQFMZ601YL5PeoC4sjkHDpa4apptq7VchGdadJxwFNEofbce6AxellkXepWhI1Sq7UE2Wn3eOOOsLtvrR1EYElrZQq9w8bqoQl/fF02wl8kTmrSV9iapgoNYr0LqSaaOtnIXTyKt9bnfh/X6jwvZgBmUp87ukrIpH2b5n1GfjO2UWY6GKJyOzlnf5GJgtdWw6AeMTEz9uw9dQSVv3d3ONSbZv/sjlQ4Ondo448SJ/6jE3ooHvTjwGZm556kJKRTCZhHGYEmc5cup5faSgrjeOmVYlD40tuPOvdyppzW6dTtqBs8mskqX+ZuQ9Yu/PctRTF5O3Btmnm7ndunND3nNCgjAKqJcYPU3Ok/WPCk2Ntd5lbdbuH8zW+x8j7x2CV+RdtfO2v4Aevp3Y2XbuwXm30aNHP4heN7N7yIu9/4i8vqw/R2/g9ZC8gdv/BDyWpqlIceqSlDF3EmHsxhQiFwOP+YL6nheJT4D3O9wmb0/v1kcuL7QUkkHbxA1w1AuDIKJx7POIhMQLMYhYCKFAAO6H3i5vR6qo8fO8vUPxirfzoeT9hfTgbcZ/yN1sK95j57+NXUfZZz54prf4aFuHGUiVdGP0CosvavvLXL6mZAArCIFMI0+ERMXNvCVtzpd8PcUlQsXuT+xLtocdmUOwB401eJs3dsDebufXcX21O1M16qS3JbEXJKKoMrAT0Vb48u9gMiUY+TR2pyE1fwfoB27Kfd8l5u8BEVBQ/jXf4dtf9ZSpV/8KAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=377d1fa0831b16106e57c6a6feaad35d"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=377d1fa0831b16106e57c6a6feaad35d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=377d1fa0831b16106e57c6a6feaad35d"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=377d1fa0831b16106e57c6a6feaad35d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_377d1fa0831b16106e57c6a6feaad35d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_377d1fa0831b16106e57c6a6feaad35d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_377d1fa0831b16106e57c6a6feaad35d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_377d1fa0831b16106e57c6a6feaad35d"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>closed_request</internal_name>
+        <label_cache>[{"name":"subflow.payment_status","label":"Input➛Payment Status","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"payment_status","choices":[],"usedInstances":{"317971c6-88e7-4aab-b866-67ad50acc292":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c96ce5be-5584-41a2-82b2-07c286a18d25"}},{"name":"317971c6-88e7-4aab-b866-67ad50acc292.Record","label":"1 - Look Up Record➛Refund Request Record","reference":"x_1567520_refund_0_refund_request","reference_display":"Refund Request","type":"reference","base_type":"reference","usedInstances":{"850f75d1-51c2-43b8-8d64-2ae9b2ebcbfb":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Closed Request</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Closed Request">377d1fa0831b16106e57c6a6feaad35d</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 19:36:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a67f9b64831b16106e57c6a6feaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 19:36:15</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=a67f9b64831b16106e57c6a6feaad357"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a67f9b64831b16106e57c6a6feaad357"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a67f9b64831b16106e57c6a6feaad357"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a67f9b64831b16106e57c6a6feaad357^sys_idNOT INa67f9b64831b16106e57c6a6feaad358"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a67f9b64831b16106e57c6a6feaad357</id>
+        <name>Closed Request</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 19:36:15</sys_created_on>
+        <sys_id>a67f9b64831b16106e57c6a6feaad358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 19:36:15</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=a67f9b64831b16106e57c6a6feaad358"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a67f9b64831b16106e57c6a6feaad357"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=a67f9b64831b16106e57c6a6feaad357"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a67f9b64831b16106e57c6a6feaad357"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=a67f9b64831b16106e57c6a6feaad357"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=a67f9b64831b16106e57c6a6feaad357^sys_idNOT IN267f9b64831b16106e57c6a6feaad362,e27f9b64831b16106e57c6a6feaad363"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Closed Request">a67f9b64831b16106e57c6a6feaad357</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 19:36:15</sys_created_on>
+        <sys_id>267f9b64831b16106e57c6a6feaad362</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 19:36:15</sys_updated_on>
+        <ui_id>317971c6-88e7-4aab-b866-67ad50acc292</ui_id>
+        <values>H4sIAAAAAAAA/+VYXW/jKhD9K5af0147X076dtUq0kp7t1Lbuy+7K4QNbtAScAG3Tav+9zsY7ESJ82HdVGq1b/EwwJmZcwbIj9eQkfAiJNNomk+no0kSRYNBFI3HgwzHaToYZ2mU4mHYCwVeUPA0OOUUPh8xL+33M4pH42TUj5CieSkIan4o+lBSbcCXMF1wvPzup9xU48FNM57NGSeKivDix69eWGAFWxmqwovXjaFjsXKcUg6udx7sBnazLJpPVI0529f1acE3NyAVsVCiXkifDRWEAoYcc0174QILgo1Uy8aiKCbXgq8McyYMrBha52fNXmDfSWT9cgpRZdSNNZ/Ip8qZ8yts8K1RZWZK5V2zuWQZ1S4fhOa45OZy3eYcrgvDpHBTXNhutuTlQnxz6QibBerKgKXUAIIWNlCL3IeR387l002NcsZElRM/yGWGefOFjVEsLY3F8xpSThewEFrgomDiHhVKPrJqMmBZnN9z+DjPuXyCTTW7F+c4s8DPIa/4fAb2q8r8HStmo/gHloHJAIhxYAhyJdSyVFUqH1HGS10NKCy0Wyt864V6qS851noVOaQcPZQWt8uDjxi5pNkpmWKF+RuWeKQ+uLdeLZfRXgpOV5TLpCDMotBrminwskqKNtiU+mcJi5Dxtk52uXWUy2GstVwu18G2BeCFs2X72raAF058MuEMo+gzSQc2/3jK6a4Fl4IDgojJXpKRFZ+0VAa5XK4pYpv8nXl+BISa59eWmUG63IXK0zxnlJO282FmBzbOh/6feT58SJIDIIJc9ZjgTFSHPQB9L/aP9lIvjTd4VtFrxf3KhnW2rQEcGBm8dFbCEXBqJdzC3sGdw9MCse73FWU2e31t9AIYnEwAg/5pBPDahNkksiXn9f3OVrP2f7H+eNMfKLg2IX5rE1inPeOue/bftgU86KTgdbK5kasdnDvxRXCHInvv2QLmMNXvh5x+0RMj99Ssdq+9iDRPmP9uG/eMQ3WhqvDe4VIZ733XpGuXSpajBVSOFXD3VTQDcmiEFUW5tO8uf+tdEclWMmdKG+/c9iID/YhAgjADM6dB5R003h0P4sNx1Kn8kgd1IH43HUAgQRVI0ATSLewuTWt4wsvpqZvWDDNeVQMeNMVaOalSUu1oXAcKuYcRR3a1I0HFJwX1/9temwRa298BrJ/idXz61pRRnA77eJwM4jiK4ogk0SRJ4sk4zcc4GeYrjSKkRQbdFFbOgSqwPKqpUdc52u4/rqV2bTRHoKopeCWFfT/3ExNYWFDfoIZ1GLhvKKmUnGKx0VHu4Jz4a+bxe76OPlxX+RT/FZXsbjPTztSa6/e6N5TsX8EeSvrFUmxCo/4kJtnZJImTs2FOxmdTgkdneJqOkgGh2TA/5VXg13/u9OoUkBUAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Closed Request">a67f9b64831b16106e57c6a6feaad357</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 19:36:15</sys_created_on>
+        <sys_id>e27f9b64831b16106e57c6a6feaad363</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 19:36:15</sys_updated_on>
+        <ui_id>850f75d1-51c2-43b8-8d64-2ae9b2ebcbfb</ui_id>
+        <values>H4sIAAAAAAAA/9WV207jMBCGXwXluqlipzmUuxUICYkFqbDcIBRN7DFYcg4kDtCt+u5rJ+khtLDALivtXT322P/8M19zs3Akdw6dCY85nwriCUKIR7yAUBJjjCmLwghp7IycHDI0JytkRcXN+hFUYwOLhU+iaURY6MYxRu4EIHXTOAzdMAIeeMAYndLxrM1bLk0ml3WpYH7dX2Ai7F4qXmHuHN7cjpwSKvOWxso5XLzYeq9YBSkqc3S2UvtSvZ6Xds0L1mSY60Sugmd95nG/c3B6bHZMkpVDRg4+a8w5Gh0CVI0jJ4Ocgy6q+TpSIfCLXG0C9zLXXaEZPNfyp3nZp/acQFMZ601YL5PeoC4sjkHDpa4apptq7VchGdadJxwFNEofbce6AxellkXepWhI1Sq7UE2Wn3eOOOsLtvrR1EYElrZQq9w8bqoQl/fF02wl8kTmrSV9iapgoNYr0LqSaaOtnIXTyKt9bnfh/X6jwvZgBmUp87ukrIpH2b5n1GfjO2UWY6GKJyOzlnf5GJgtdWw6AeMTEz9uw9dQSVv3d3ONSbZv/sjlQ4Ondo448SJ/6jE3ooHvTjwGZm556kJKRTCZhHGYEmc5cup5faSgrjeOmVYlD40tuPOvdyppzW6dTtqBs8mskqX+ZuQ9Yu/PctRTF5O3Btmnm7ndunND3nNCgjAKqJcYPU3Ok/WPCk2Ntd5lbdbuH8zW+x8j7x2CV+RdtfO2v4Aevp3Y2XbuwXm30aNHP4heN7N7yIu9/4i8vqw/R2/g9ZC8gdv/BDyWpqlIceqSlDF3EmHsxhQiFwOP+YL6nheJT4D3O9wmb0/v1kcuL7QUkkHbxA1w1AuDIKJx7POIhMQLMYhYCKFAAO6H3i5vR6qo8fO8vUPxirfzoeT9hfTgbcZ/yN1sK95j57+NXUfZZz54prf4aFuHGUiVdGP0CosvavvLXL6mZAArCIFMI0+ERMXNvCVtzpd8PcUlQsXuT+xLtocdmUOwB401eJs3dsDebufXcX21O1M16qS3JbEXJKKoMrAT0Vb48u9gMiUY+TR2pyE1fwfoB27Kfd8l5u8BEVBQ/jXf4dtf9ZSpV/8KAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=a67f9b64831b16106e57c6a6feaad357"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=a67f9b64831b16106e57c6a6feaad357"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a67f9b64831b16106e57c6a6feaad357"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a67f9b64831b16106e57c6a6feaad357"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a67f9b64831b16106e57c6a6feaad357"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a67f9b64831b16106e57c6a6feaad357"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_a67f9b64831b16106e57c6a6feaad357"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a67f9b64831b16106e57c6a6feaad357"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>377d1fa0831b16106e57c6a6feaad35d</sys_id>
+        <latest_snapshot>a67f9b64831b16106e57c6a6feaad357</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch4-11-22-2024_12-02-2024_1408.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=377d1fa0831b16106e57c6a6feaad35d"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=377d1fa0831b16106e57c6a6feaad35d^sys_idNOT IN667f9b64831b16106e57c6a6feaad36e"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"667f9b64831b16106e57c6a6feaad36e","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Closed Request">377d1fa0831b16106e57c6a6feaad35d</plan_id>
+        <snapshot>4fff1ba4831b16106e57c6a6feaad317</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 19:36:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>667f9b64831b16106e57c6a6feaad36e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 19:36:15</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>
