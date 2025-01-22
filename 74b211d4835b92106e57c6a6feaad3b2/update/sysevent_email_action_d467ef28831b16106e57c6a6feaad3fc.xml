@@ -40,7 +40,7 @@
 <p>The user <strong>${user.name}</strong> has been added to the group: <strong>${group.name}</strong></p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Update members in the group</name>
+        <name>Update members in group</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -51,7 +51,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Update members in the group ${group.name}</subject>
+        <subject>Update members in group ${group.name}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -59,15 +59,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d467ef28831b16106e57c6a6feaad3fc</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_name>Update members in the group</sys_name>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Update members in group</sys_name>
         <sys_overrides/>
         <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
         <sys_update_name>sysevent_email_action_d467ef28831b16106e57c6a6feaad3fc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 21:14:30</sys_updated_on>
+        <sys_updated_on>2025-01-22 11:00:37</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
