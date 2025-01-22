@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="c128a11083db92106e57c6a6feaad315" extends="task" label="Refund Request" max_length="40" name="x_1567520_refund_0_refund_request" type="collection">
+        <element label="Integration Error Message" max_length="1000" name="integration_error_message" type="string"/>
         <element label="Category" max_length="32" name="category" reference="x_1567520_refund_0_category" type="reference"/>
         <element label="Expense Date" max_length="40" name="expense_date" type="glide_date_time"/>
-        <element default="BRL" label="Amount BRL" max_length="38" name="amount_brl" type="currency"/>
-        <element label="Amount USD" max_length="38" name="amount_usd" type="currency"/>
+        <element choice="1" default="1" label="Integration State" max_length="40" name="integration_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Starting" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Integration Failure" sequence="300" value="4"/>
+                <element inactive_on_update="false" label="Integration Success" sequence="400" value="3"/>
+                <element inactive_on_update="false" label="Integrating" sequence="200" value="2"/>
+            </choice>
+        </element>
+        <element default="BRL" label="Amount BRL" max_length="38" name="amount_brl" type="decimal"/>
+        <element label="Amount USD" max_length="38" name="amount_usd" type="decimal"/>
         <element choice="3" default="1" label="Payment Status" max_length="40" name="payment_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Requested" sequence="0" value="1"/>

@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="amount_usd" table="x_1567520_refund_0_refund_request">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="integration_error_message" table="x_1567520_refund_0_refund_request">
         <active>true</active>
         <array>false</array>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Amount USD</column_label>
+        <column_label>Integration Error Message</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,15 +26,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>amount_usd</element>
+        <element>integration_error_message</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Decimal">decimal</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>38</max_length>
+        <max_length>1000</max_length>
         <name>x_1567520_refund_0_refund_request</name>
         <next_element/>
         <primary>false</primary>
@@ -46,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-20 16:32:47</sys_created_on>
-        <sys_name>Amount USD</sys_name>
+        <sys_created_on>2025-01-22 21:58:15</sys_created_on>
+        <sys_name>Integration Error Message</sys_name>
         <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
-        <sys_update_name>sys_dictionary_x_1567520_refund_0_refund_request_amount_usd</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1567520_refund_0_refund_request_integration_error_message</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 21:42:38</sys_updated_on>
+        <sys_updated_on>2025-01-22 21:58:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

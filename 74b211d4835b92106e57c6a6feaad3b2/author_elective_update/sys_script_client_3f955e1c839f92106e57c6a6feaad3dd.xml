@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>expense_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validation for Date</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') return;
+
+    var dateParts = newValue.split('/');
+    var formattedDate = dateParts[2] + '-' + dateParts[1] + '-' + dateParts[0];
+    var expenseDate = new Date(formattedDate);
+    var today = new Date();
+
+    today.setHours(0, 0, 0, 0);
+
+    if (expenseDate > today) {
+        g_form.addErrorMessage("The expense date cannot be in the future.");
+        g_form.setValue("expense_date", ""); 
+    } else {
+        g_form.clearMessages();
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:36:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3f955e1c839f92106e57c6a6feaad3dd</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Validation for Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
+        <sys_update_name>sys_script_client_3f955e1c839f92106e57c6a6feaad3dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 14:53:54</sys_updated_on>
+        <table>x_1567520_refund_0_refund_request</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</application>
+        <file_path/>
+        <instance_id>499ef269db85461437d72a5913961959</instance_id>
+        <instance_name>dev246208</instance_name>
+        <name>sys_script_client_3f955e1c839f92106e57c6a6feaad3dd</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;expense_date&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Validation for Date&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') return;
+
+    var dateParts = newValue.split('/');
+    var formattedDate = dateParts[2] + '-' + dateParts[1] + '-' + dateParts[0];
+    var expenseDate = new Date(formattedDate);
+    var today = new Date();
+
+    today.setHours(0, 0, 0, 0);
+
+    if (expenseDate &gt; today) {
+        g_form.addErrorMessage("The expense date cannot be in the future.");
+        g_form.setValue("expense_date", ""); 
+    } else {
+        g_form.clearMessages();
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-20 19:36:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3f955e1c839f92106e57c6a6feaad3dd&lt;/sys_id&gt;&lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validation for Date&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Refund Application" source="x_1567520_refund_0"&gt;74b211d4835b92106e57c6a6feaad3b2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Refund Application"&gt;74b211d4835b92106e57c6a6feaad3b2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_3f955e1c839f92106e57c6a6feaad3dd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-22 14:53:54&lt;/sys_updated_on&gt;&lt;table&gt;x_1567520_refund_0_refund_request&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1165110701</payload_hash>
+        <record_name>Validation for Date</record_name>
+        <reverted_from/>
+        <source>fd2459d4835b92106e57c6a6feaad342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 14:53:54</sys_created_on>
+        <sys_id>54782f38831f56106e57c6a6feaad31b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948e816e860000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 14:53:54</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>d8782f38161f5610e878ac20df711a1a</update_guid>
+        <update_guid_history>d8782f38161f5610e878ac20df711a1a:1165110701,90ad8ee823531610ef1f83476159b01b:1129338389,cc65ca6077531610c330df23a3e831ba:410169707,b70187943293d2102724e919c61964b6:1129338389,1be083945f93d210dbfd314214ce1634:2011774875,b9c0cf946d93d21049477d77bf528595:1129338389,bc708f14b593d210014ef9bba3d6ef0d:439968034,bc5007548b93d210f256f488ba7d7d71:1854903024,d7104b144b93d21090f8b855568c0b6f:-9946149,c7af3654e993d210e98d6faeda70ecb0:1037845589,157fb254d293d21022e32ed608591c2d:1129338389,4a187a588253d21031306c47d50e8e81:-240470185,350ade503cdf92105d10b28011f1522d:1129338389,01a9de509cdf9210d0e688d91fecc80a:-1223629974,7d89da503cdf9210e0af3962527db54a:754851603,1e3956dcf89f9210f8e13091e25b5b7e:-1223629974,4167169ca49f9210900a3b95c7f296a7:1129338389,30c6969c3d9f92102ad552416f729ab6:-543540689,99b6de5c2f9f921008e5325a81f6d459:-760921030,d6669e5ca19f92107fa4357cdd7fe569:1060974779,5bd5925c869f921085bf998a69f36866:-2046634536</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 14:54:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>059f09d761b44cf6820d51511b8cbca4</sys_id>
+        <sys_metadata>3f955e1c839f92106e57c6a6feaad3dd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validation for Date</sys_name>
+        <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
+        <sys_parent display_value="Refund Request">c128a11083db92106e57c6a6feaad315</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
+        <sys_scope_delete display_value="">4358b604bea043d8b6440dff506a0690</sys_scope_delete>
+        <sys_update_name>sys_script_client_3f955e1c839f92106e57c6a6feaad3dd</sys_update_name>
+        <sys_update_version display_value="sys_script_client_3f955e1c839f92106e57c6a6feaad3dd">54782f38831f56106e57c6a6feaad31b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 14:54:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -4,42 +4,40 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>expense_date</field>
+        <field>amount_usd</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Validation for Date</name>
+        <name>Validation for Currency</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-    if (isLoading || newValue === '') {
+    if (isLoading || isTemplate || newValue === '') {
         return;
     }
 
-    var today = new Date();
-    var expenseDate = new Date(newValue);
-
-    if (expenseDate > today) {
-        g_form.addErrorMessage("The expense date cannot be in the future.");
-        g_form.setValue("expense_date", ""); 
-    } else {
-        g_form.clearMessages();
-	}
+    if (newValue.indexOf(',') === -1 && newValue.indexOf('.') !== -1) {
+        var formattedValue = newValue.replace('.', ',');
+        
+        if (newValue !== formattedValue) {
+            g_form.setValue('amount_usd', formattedValue);
+        }
+    }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-20 19:36:08</sys_created_on>
+        <sys_created_on>2025-01-22 22:08:57</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>3f955e1c839f92106e57c6a6feaad3dd</sys_id>
-        <sys_mod_count>19</sys_mod_count>
-        <sys_name>Validation for Date</sys_name>
+        <sys_id>93ebc149839796106e57c6a6feaad336</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Validation for Currency</sys_name>
         <sys_overrides/>
         <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
-        <sys_update_name>sys_script_client_3f955e1c839f92106e57c6a6feaad3dd</sys_update_name>
+        <sys_update_name>sys_script_client_93ebc149839796106e57c6a6feaad336</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 13:38:39</sys_updated_on>
+        <sys_updated_on>2025-01-22 23:01:37</sys_updated_on>
         <table>x_1567520_refund_0_refund_request</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

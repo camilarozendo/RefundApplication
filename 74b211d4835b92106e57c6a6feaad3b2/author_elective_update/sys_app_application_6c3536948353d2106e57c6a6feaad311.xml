@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order>100</order>
+        <roles>x_1567520_refund_0.hr_manager,x_1567520_refund_0.hr_resolver,x_1567520_refund_0.refund_requester</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 21:53:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6c3536948353d2106e57c6a6feaad311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request a Refund</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
+        <sys_update_name>sys_app_application_6c3536948353d2106e57c6a6feaad311</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 21:53:59</sys_updated_on>
+        <title>Request a Refund</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</application>
+        <file_path/>
+        <instance_id>499ef269db85461437d72a5913961959</instance_id>
+        <instance_name>dev246208</instance_name>
+        <name>sys_app_application_6c3536948353d2106e57c6a6feaad311</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name/><order>100</order><roles>x_1567520_refund_0.hr_manager,x_1567520_refund_0.hr_resolver,x_1567520_refund_0.refund_requester</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-20 21:53:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6c3536948353d2106e57c6a6feaad311</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Request a Refund</sys_name><sys_overrides/><sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package><sys_policy/><sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope><sys_update_name>sys_app_application_6c3536948353d2106e57c6a6feaad311</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-20 21:53:59</sys_updated_on><title>Request a Refund</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1353527399</payload_hash>
+        <record_name>Request a Refund</record_name>
+        <reverted_from/>
+        <source>fd2459d4835b92106e57c6a6feaad342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 21:53:59</sys_created_on>
+        <sys_id>e265fe548353d2106e57c6a6feaad343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19485b5508e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 21:53:59</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>a665fe540053d210b3faa888a81e4442</update_guid>
+        <update_guid_history>a665fe540053d210b3faa888a81e4442:1353527399</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Request a Refund">83f82778831f56106e57c6a6feaad36d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 14:56:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>2d4901fbc9a74fdd98c8290f607d3c09</sys_id>
+        <sys_metadata>6c3536948353d2106e57c6a6feaad311</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request a Refund</sys_name>
+        <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
+        <sys_scope_delete display_value="">4358b604bea043d8b6440dff506a0690</sys_scope_delete>
+        <sys_update_name>sys_app_application_6c3536948353d2106e57c6a6feaad311</sys_update_name>
+        <sys_update_version display_value="sys_app_application_6c3536948353d2106e57c6a6feaad311">e265fe548353d2106e57c6a6feaad343</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 14:56:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
