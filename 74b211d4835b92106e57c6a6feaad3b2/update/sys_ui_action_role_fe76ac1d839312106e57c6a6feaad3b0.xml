@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-23 14:03:50</sys_created_on>
+        <sys_id>fe76ac1d839312106e57c6a6feaad3b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set as "Paid".x_1567520_refund_0.hr_manager</sys_name>
+        <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
+        <sys_ui_action display_value="Set as &quot;Paid&quot;">bdf4e499839312106e57c6a6feaad3a0</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_fe76ac1d839312106e57c6a6feaad3b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-23 14:03:50</sys_updated_on>
+        <sys_user_role display_value="x_1567520_refund_0.hr_manager" name="x_1567520_refund_0.hr_manager">c9b211d4835b92106e57c6a6feaad3dd</sys_user_role>
+    </sys_ui_action_role>
+</record_update>
