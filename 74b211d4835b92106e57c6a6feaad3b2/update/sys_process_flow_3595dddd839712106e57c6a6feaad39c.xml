@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1567520_refund_0_refund_request">payment_status=4^EQ<item display_value="Canceled" endquery="false" field="payment_status" goto="false" newquery="false" operator="=" or="false" value="4"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Canceled</label>
+        <name>Canceled</name>
+        <order>300</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-23 17:29:15</sys_created_on>
+        <sys_id>3595dddd839712106e57c6a6feaad39c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Canceled</sys_name>
+        <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
+        <sys_update_name>sys_process_flow_3595dddd839712106e57c6a6feaad39c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-23 17:29:15</sys_updated_on>
+        <table>x_1567520_refund_0_refund_request</table>
+    </sys_process_flow>
+</record_update>

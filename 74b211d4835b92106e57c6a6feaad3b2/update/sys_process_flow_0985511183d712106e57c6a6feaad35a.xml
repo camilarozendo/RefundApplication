@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1567520_refund_0_refund_request">payment_status=5^EQ<item display_value="Awaiting payment" endquery="false" field="payment_status" goto="false" newquery="false" operator="=" or="false" value="5"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Awaiting Payment</label>
+        <name>Awaiting Payment</name>
+        <order>200</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-23 17:28:56</sys_created_on>
+        <sys_id>0985511183d712106e57c6a6feaad35a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Awaiting Payment</sys_name>
+        <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
+        <sys_update_name>sys_process_flow_0985511183d712106e57c6a6feaad35a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-23 17:28:56</sys_updated_on>
+        <table>x_1567520_refund_0_refund_request</table>
+    </sys_process_flow>
+</record_update>
