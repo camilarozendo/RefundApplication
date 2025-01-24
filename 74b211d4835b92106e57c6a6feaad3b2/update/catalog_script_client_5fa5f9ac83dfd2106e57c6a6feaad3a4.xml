@@ -22,7 +22,6 @@
     if (isLoading || newValue === '') return;
 
     var dateParts = newValue.split('/');
-
     var formattedDate = dateParts[2] + '-' + dateParts[1] + '-' + dateParts[0];
     var expenseDate = new Date(formattedDate);
     var today = new Date();
@@ -42,7 +41,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5fa5f9ac83dfd2106e57c6a6feaad3a4</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Validation for Date</sys_name>
         <sys_overrides/>
         <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
@@ -50,7 +49,7 @@
         <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
         <sys_update_name>catalog_script_client_5fa5f9ac83dfd2106e57c6a6feaad3a4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 14:52:23</sys_updated_on>
+        <sys_updated_on>2025-01-24 15:02:41</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

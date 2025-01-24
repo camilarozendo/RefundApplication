@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="x_1567520_refund_0.hr_manager" name="x_1567520_refund_0.hr_manager">c9b211d4835b92106e57c6a6feaad3dd</contains>
+        <role display_value="x_1567520_refund_0.hr_manager_dashboard_viewer" name="x_1567520_refund_0.hr_manager_dashboard_viewer">6422a569835312106e57c6a6feaad380</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 13:04:43</sys_created_on>
+        <sys_id>38a221a9835312106e57c6a6feaad31b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1567520_refund_0.hr_manager.x_1567520_refund_0.hr_manager_dashboard_viewer</sys_name>
+        <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
+        <sys_update_name>sys_user_role_contains_38a221a9835312106e57c6a6feaad31b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 13:04:43</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</application>
+        <file_path/>
+        <instance_id>499ef269db85461437d72a5913961959</instance_id>
+        <instance_name>dev246208</instance_name>
+        <name>sys_user_role_contains_38a221a9835312106e57c6a6feaad31b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="x_1567520_refund_0.hr_manager" name="x_1567520_refund_0.hr_manager">c9b211d4835b92106e57c6a6feaad3dd</contains><role display_value="x_1567520_refund_0.hr_manager_dashboard_viewer" name="x_1567520_refund_0.hr_manager_dashboard_viewer">6422a569835312106e57c6a6feaad380</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-24 13:04:43</sys_created_on><sys_id>38a221a9835312106e57c6a6feaad31b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1567520_refund_0.hr_manager.x_1567520_refund_0.hr_manager_dashboard_viewer</sys_name><sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package><sys_policy/><sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope><sys_update_name>sys_user_role_contains_38a221a9835312106e57c6a6feaad31b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-24 13:04:43</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>538245613</payload_hash>
+        <record_name>x_1567520_refund_0.hr_manager.x_1567520_refund_0.hr_manager_dashboard_viewer</record_name>
+        <reverted_from/>
+        <source>fd2459d4835b92106e57c6a6feaad342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 13:04:43</sys_created_on>
+        <sys_id>fca221a9835312106e57c6a6feaad3c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194986a319a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 13:04:43</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>f0a221a9975312101b45e03ac82030c1</update_guid>
+        <update_guid_history>f0a221a9975312101b45e03ac82030c1:538245613</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 13:13:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>9bcf01d2dc2f4e96bbcd009e92f61ac9</sys_id>
+        <sys_metadata>38a221a9835312106e57c6a6feaad31b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1567520_refund_0.hr_manager.x_1567520_refund_0.hr_manager_dashboard_viewer</sys_name>
+        <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
+        <sys_scope_delete display_value="">4358b604bea043d8b6440dff506a0690</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_38a221a9835312106e57c6a6feaad31b</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_38a221a9835312106e57c6a6feaad31b">fca221a9835312106e57c6a6feaad3c1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 13:13:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

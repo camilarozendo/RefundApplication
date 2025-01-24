@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>expense_date</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 14:42:34</sys_created_on>
+        <sys_id>e2f87da583d312106e57c6a6feaad365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>expense_date</sys_name>
+        <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e2f87da583d312106e57c6a6feaad365</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 14:42:34</sys_updated_on>
+        <table>x_1567520_refund_0_refund_request</table>
+        <ui_policy display_value="Hide the time on form">c9b839a583d312106e57c6a6feaad312</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=e2f87da583d312106e57c6a6feaad365"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</application>
+        <file_path/>
+        <instance_id>499ef269db85461437d72a5913961959</instance_id>
+        <instance_name>dev246208</instance_name>
+        <name>sys_ui_policy_action_e2f87da583d312106e57c6a6feaad365</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>expense_date</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-24 14:42:34</sys_created_on><sys_id>e2f87da583d312106e57c6a6feaad365</sys_id><sys_mod_count>0</sys_mod_count><sys_name>expense_date</sys_name><sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package><sys_policy/><sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope><sys_update_name>sys_ui_policy_action_e2f87da583d312106e57c6a6feaad365</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-24 14:42:34</sys_updated_on><table>x_1567520_refund_0_refund_request</table><ui_policy display_value="Hide the time on form">c9b839a583d312106e57c6a6feaad312</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=e2f87da583d312106e57c6a6feaad365"/></record_update>]]></payload>
+        <payload_hash>-1026743652</payload_hash>
+        <record_name>expense_date</record_name>
+        <reverted_from/>
+        <source>fd2459d4835b92106e57c6a6feaad342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 14:42:34</sys_created_on>
+        <sys_id>4209bda583d312106e57c6a6feaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19498c3c6780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 14:42:34</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>4609bda5aed31210d94e652108addb5a</update_guid>
+        <update_guid_history>4609bda5aed31210d94e652108addb5a:-1026743652</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 14:43:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>71a27a2ea51a439788d54bef3adffeb1</sys_id>
+        <sys_metadata>e2f87da583d312106e57c6a6feaad365</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>expense_date</sys_name>
+        <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
+        <sys_scope_delete display_value="">4358b604bea043d8b6440dff506a0690</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_e2f87da583d312106e57c6a6feaad365</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_e2f87da583d312106e57c6a6feaad365">4209bda583d312106e57c6a6feaad35b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 14:43:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

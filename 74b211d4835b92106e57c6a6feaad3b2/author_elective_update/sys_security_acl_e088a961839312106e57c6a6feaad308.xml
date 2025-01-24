@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>Allow report_on for records in x_1567520_refund_0_refund_request, for users with role x_1567520_refund_0.hr_manager.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1567520_refund_0_refund_request</name>
+        <operation display_value="report_on">f6861c32c0a8016400647951e901525d</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 13:30:24</sys_created_on>
+        <sys_id>e088a961839312106e57c6a6feaad308</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1567520_refund_0_refund_request</sys_name>
+        <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
+        <sys_update_name>sys_security_acl_e088a961839312106e57c6a6feaad308</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 13:31:08</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</application>
+        <file_path/>
+        <instance_id>499ef269db85461437d72a5913961959</instance_id>
+        <instance_name>dev246208</instance_name>
+        <name>sys_security_acl_e088a961839312106e57c6a6feaad308</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Allow report_on for records in x_1567520_refund_0_refund_request, for users with role x_1567520_refund_0.hr_manager.</description><local_or_existing>Local</local_or_existing><name>x_1567520_refund_0_refund_request</name><operation display_value="report_on">f6861c32c0a8016400647951e901525d</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-24 13:30:24</sys_created_on><sys_id>e088a961839312106e57c6a6feaad308</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_1567520_refund_0_refund_request</sys_name><sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package><sys_policy/><sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope><sys_update_name>sys_security_acl_e088a961839312106e57c6a6feaad308</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-24 13:31:08</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>93903316</payload_hash>
+        <record_name>x_1567520_refund_0_refund_request</record_name>
+        <reverted_from/>
+        <source>fd2459d4835b92106e57c6a6feaad342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 13:31:09</sys_created_on>
+        <sys_id>ffa8a1a1839312106e57c6a6feaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194988262ae0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 13:31:09</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>77a8a1a18a9312109c3bc44320a43203</update_guid>
+        <update_guid_history>77a8a1a18a9312109c3bc44320a43203:93903316,3c88a9613d9312103a3d6bd8d98b540e:-1552313687</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 13:32:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>6477d465e4c54128af439cb59c254664</sys_id>
+        <sys_metadata>e088a961839312106e57c6a6feaad308</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1567520_refund_0_refund_request</sys_name>
+        <sys_package display_value="Refund Application" source="x_1567520_refund_0">74b211d4835b92106e57c6a6feaad3b2</sys_package>
+        <sys_parent display_value="x_1567520_refund_0_refund_request">9d28a11083db92106e57c6a6feaad319</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Refund Application">74b211d4835b92106e57c6a6feaad3b2</sys_scope>
+        <sys_scope_delete display_value="">4358b604bea043d8b6440dff506a0690</sys_scope_delete>
+        <sys_update_name>sys_security_acl_e088a961839312106e57c6a6feaad308</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_e088a961839312106e57c6a6feaad308">ffa8a1a1839312106e57c6a6feaad303</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 13:32:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
